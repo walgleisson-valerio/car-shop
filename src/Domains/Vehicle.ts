@@ -1,7 +1,7 @@
 import IVehicle from '../Interfaces/IVehicle';
 
 class Vehicle {
-  protected id?: number;
+  protected id?: string;
   protected model: string;
   protected year: number;
   protected color: string;
